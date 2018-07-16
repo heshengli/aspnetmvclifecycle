@@ -6,7 +6,10 @@ using System.Web.Mvc;
 
 namespace aspnetmvclifecycle.Filters
 {
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = false)]
+    /// <summary>
+    /// 自定义过滤器属性
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = true)]
     public class CustomFilter : ActionFilterAttribute
     {
         public bool EnableFilter { get;private set; }
