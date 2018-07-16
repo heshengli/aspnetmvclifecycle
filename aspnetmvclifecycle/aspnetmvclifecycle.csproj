@@ -197,6 +197,7 @@
     <Compile Include="Filters\CustomAuthenticationFilter.cs" />
     <Compile Include="Filters\CustomAuthorizationFilter.cs" />
     <Compile Include="Filters\CustomFilter.cs" />
+    <Compile Include="Filters\PagedListFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
