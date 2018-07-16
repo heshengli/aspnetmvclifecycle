@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aspnetmvclifecycle.Filters;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,7 @@ namespace aspnetmvclifecycle.Controllers
 {
     public class HomeController : Controller
     {
+        [CustomFilter]
         public ActionResult Index()
         {
             return View();
